@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.kangyonggan.demo</groupId>
+    <artifactId>hello</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <module>hello-core</module>
+        <module>hello-test</module>
+    </modules>
+
+    <properties>
+        <!--Project-->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.build.version>1.0-SNAPSHOT</project.build.version>
+
+        <!--Plugins-->
+        <plugin.compiler.version>3.5.1</plugin.compiler.version>
+        <plugin.compiler.level>1.8</plugin.compiler.level>
+    </properties>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <!--compiler plugin -->
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>${plugin.compiler.version}</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
+</project>
