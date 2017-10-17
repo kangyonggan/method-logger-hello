@@ -344,7 +344,7 @@ public class MethodLoggerTest {
 ```
 
 ### 源代码
-Hello World的源代码托管在github上：[https://github.com/kangyonggan/hello.git](https://github.com/kangyonggan/hello.git)
+Hello World的源代码托管在github上：[https://github.com/kangyonggan/method-logger-hello.git](https://github.com/kangyonggan/method-logger-hello.git)
 
 想法实现的代码：[https://github.com/kangyonggan/method-logger.git](https://github.com/kangyonggan/method-logger.git)
 
